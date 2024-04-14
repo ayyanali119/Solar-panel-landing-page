@@ -1,0 +1,585 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Lobster|Patua+One|Rubik|Sniglet&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+header,
+section,
+footer {
+  overflow: hidden; }
+
+header {
+  background-color: #87CEFA;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#87CEFA));
+  background: linear-gradient(to bottom, #fefefe, #87CEFA);
+  height: 100vh; }
+  header a {
+    font-family: "Sniglet", cursive;
+    font-size: 1rem;
+    color: #6dbd6d;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease; }
+  header div#navigation a.navbar-brand#branding {
+    padding-left: 8rem; }
+    header div#navigation a.navbar-brand#branding:hover {
+      color: #00FFFF; }
+    header div#navigation a.navbar-brand#branding i {
+      font-size: 1.8rem; }
+  header div#navigation button.navbar-toggler i {
+    color: #6dbd6d; }
+  header div#navigation li.nav-item {
+    padding: 0.9rem; }
+    header div#navigation li.nav-item:last-child {
+      padding-right: 10.5rem; }
+    header div#navigation li.nav-item a.nav-link:hover {
+      color: #00FFFF; }
+  header div#navigation li.nav-item#dropdownMenu {
+    position: relative; }
+    header div#navigation li.nav-item#dropdownMenu div#dropdownContent {
+      display: none;
+      position: absolute;
+      top: 50px;
+      background-color: #fefefe;
+      -webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      text-align: center; }
+      header div#navigation li.nav-item#dropdownMenu div#dropdownContent a {
+        color: #6dbd6d;
+        padding: 0.8rem 1rem;
+        text-decoration: none;
+        display: block; }
+        header div#navigation li.nav-item#dropdownMenu div#dropdownContent a:hover {
+          background-color: #c8f7ff; }
+  header div#navigation li#dropdownMenu:hover div#dropdownContent {
+    display: block; }
+  header div#showcase {
+    padding: 10vmin 0; }
+    header div#showcase div#showcaseText {
+      padding-top: 6rem;
+      font-family: "Rubik", cursive;
+      color: #6dbd6d; }
+      header div#showcase div#showcaseText h6 {
+        padding: 1rem;
+        letter-spacing: 4px; }
+      header div#showcase div#showcaseText h1 {
+        font-size: 4rem;
+        font-weight: bold;
+        padding: 1rem 0; }
+      header div#showcase div#showcaseText p {
+        padding: 1rem 2rem; }
+      header div#showcase div#showcaseText button {
+        border-radius: 2rem;
+        font-weight: bold;
+        border: none;
+        color: #6dbd6d;
+        background: #fefefe;
+        -webkit-transition: all 0.7s ease;
+        transition: all 0.7s ease; }
+        header div#showcase div#showcaseText button:hover {
+          background: #9cd9ff;
+          color: #fefefe; }
+    header div#showcase div#showcaseImage {
+      padding: 2rem 3rem; }
+      header div#showcase div#showcaseImage img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30rem; }
+
+section#section-1 {
+  height: 100vh;
+  padding: 12vmin 0; }
+  section#section-1 div#introductionImage img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.5rem; }
+  section#section-1 div#introduction {
+    position: relative; }
+    section#section-1 div#introduction div#introductionText {
+      position: absolute;
+      top: 8vmin;
+      left: -20vmin;
+      background-color: white;
+      border-radius: 0.5rem;
+      text-align: left;
+      padding: 10vmin;
+      -webkit-box-shadow: 0 25px 42px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 25px 42px 0 rgba(0, 0, 0, 0.2);
+      font-family: "Rubik", cursive;
+      z-index: 1; }
+      section#section-1 div#introduction div#introductionText h1 {
+        font-weight: bold;
+        padding: 0.4rem 0;
+        font-size: 2rem; }
+      section#section-1 div#introduction div#introductionText p {
+        font-size: 0.9rem;
+        color: rgba(0, 0, 0, 0.5); }
+
+section#section-2 div#background-image {
+  width: 100%;
+  height: 55vh;
+  background-image: url("../img/solar-panel-field.jpg");
+  background-position: -50vmin -75vmin;
+  background-size: 140%;
+  position: relative; }
+  section#section-2 div#background-image div#featuresHeader {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    padding-top: 19vmin; }
+    section#section-2 div#background-image div#featuresHeader h1 {
+      font-family: "Patua One", cursive;
+      font-size: 6vmin;
+      color: whitesmoke; }
+    section#section-2 div#background-image div#featuresHeader p {
+      font-family: "Rubik", cursive;
+      font-size: 2vmin;
+      color: #e5e5e5; }
+
+section#section-2 div#featuresText div#numbers {
+  margin-top: -15vmin; }
+  section#section-2 div#featuresText div#numbers div.rectangle {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 1px 2px 50px 0 rgba(255, 0, 0, 0.35);
+    box-shadow: 1px 2px 50px 0 rgba(255, 0, 0, 0.35); }
+    section#section-2 div#featuresText div#numbers div.rectangle h1 {
+      font-size: 5rem;
+      color: tomato; }
+    section#section-2 div#featuresText div#numbers div.rectangle p {
+      font-family: "Patua One", cursive; }
+
+section#section-2 div#purchase h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.5rem;
+  font-family: "Lobster", cursive; }
+
+section#section-2 div#purchase p {
+  color: #2e2c2caf;
+  font-size: 1.2rem;
+  padding-bottom: 10vmin; }
+
+section#section-2 div#purchase div#cards {
+  margin: 0;
+  padding: 0; }
+  section#section-2 div#purchase div#cards .card {
+    width: 22rem;
+    margin: 3vmin; }
+    section#section-2 div#purchase div#cards .card h5.card-title {
+      background-color: rgba(208, 241, 241, 0.2);
+      padding: 1.4rem 2.5rem;
+      font-size: 1.3rem; }
+    section#section-2 div#purchase div#cards .card p.card-text {
+      padding: 2.5rem 3rem;
+      color: #2e2c2caf; }
+    section#section-2 div#purchase div#cards .card div.price {
+      background-color: rgba(208, 241, 241, 0.2);
+      border-top-right-radius: 10.6rem;
+      border-top-left-radius: 10.6rem; }
+      section#section-2 div#purchase div#cards .card div.price h1 {
+        font-size: 3.5rem;
+        padding: 1em 0.5em; }
+      section#section-2 div#purchase div#cards .card div.price a {
+        background-color: #ED1C16;
+        border: none;
+        border-radius: 1.5rem;
+        font-size: 1.1rem;
+        -webkit-transition: all 0.7s ease;
+        transition: all 0.7s ease; }
+        section#section-2 div#purchase div#cards .card div.price a:hover {
+          opacity: 0.7; }
+
+section#section-3 {
+  height: 70vh;
+  margin-top: 15vmin;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#87CEFA));
+  background: linear-gradient(to bottom, #fefefe, #87CEFA); }
+  section#section-3 div#downloadApp {
+    padding: 2vmin 0; }
+    section#section-3 div#downloadApp h1 {
+      padding: 5rem 0 0.8rem;
+      color: #6dbd6d;
+      font-size: 6vmin; }
+    section#section-3 div#downloadApp p {
+      padding: 0 6rem 2rem;
+      color: #6dbd6d;
+      font-size: 2.5vmin; }
+  section#section-3 div#platform div.platformType {
+    background-color: white;
+    display: inline-block;
+    border-radius: 1.5rem;
+    padding: 2vmin 4.5vmin;
+    margin: 1rem;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease; }
+    section#section-3 div#platform div.platformType:hover {
+      cursor: pointer;
+      opacity: 0.8; }
+    section#section-3 div#platform div.platformType h3 {
+      font-size: 3vmin; }
+    section#section-3 div#platform div.platformType p {
+      font-size: 2vmin; }
+
+section#section-4 div#customersHeader h1 {
+  font-size: 5vmin;
+  padding-top: 7.5rem; }
+
+section#section-4 div#customers {
+  padding: 10vmin 0.5vmin; }
+  section#section-4 div#customers .card {
+    width: 18rem;
+    margin: 1.5rem 1rem;
+    border-radius: 2rem; }
+    section#section-4 div#customers .card div.card-img-top img {
+      width: 20rem;
+      border-radius: 2rem; }
+    section#section-4 div#customers .card div.card-body p.card-text {
+      padding: 0.8rem; }
+
+footer {
+  background-color: #536F9F;
+  padding: 12vmin 2vmin 12vmin 7vmin; }
+  footer form div.input-group input {
+    border: none !important;
+    margin-left: 0.94rem;
+    color: black !important; }
+    footer form div.input-group input::-webkit-input-placeholder {
+      color: black !important; }
+    footer form div.input-group input::-moz-placeholder {
+      color: black !important; }
+    footer form div.input-group input::-ms-input-placeholder {
+      color: black !important; }
+    footer form div.input-group input::placeholder {
+      color: black !important; }
+    footer form div.input-group input:focus {
+      outline: none !important; }
+  footer form div.input-group div.input-group-prepend {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease; }
+    footer form div.input-group div.input-group-prepend:hover {
+      cursor: pointer;
+      opacity: 0.7; }
+    footer form div.input-group div.input-group-prepend div.input-group-text {
+      background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#87CEFA));
+      background: linear-gradient(to bottom, #fefefe, #87CEFA);
+      border: none; }
+  footer div#socialLinks i {
+    color: #fefefe;
+    padding: 0 0.5rem;
+    font-size: 1.5rem;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease; }
+    footer div#socialLinks i:first-child {
+      padding-left: 0; }
+    footer div#socialLinks i:hover {
+      color: #6dbd6d;
+      cursor: pointer; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.99);
+  z-index: 2;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease; }
+
+@media only screen and (max-width: 1450px) {
+  header div#showcase {
+    padding: 7vmin 0 0; }
+    header div#showcase div#showcaseText h1 {
+      font-size: 3.5rem; }
+    header div#showcase div#showcaseImage img {
+      width: 20rem; }
+  section#section-1 {
+    padding: 10vmin 0 0; }
+    section#section-1 div#introductionImage img {
+      width: 60%; }
+    section#section-1 div#introduction div#introductionText {
+      top: 6vmin;
+      left: -35vmin; }
+  section#section-2 div#background-image {
+    background-position: -20vmin -80vmin; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1265px) {
+  header div#showcase div#showcaseImage img {
+    width: 20rem; }
+  section#section-2 div#featuresText div#numbers div.rectangle {
+    width: 12.9rem;
+    height: 10rem;
+    margin: 0.9rem; }
+    section#section-2 div#featuresText div#numbers div.rectangle h1 {
+      font-size: 3.3rem; } }
+
+@media only screen and (max-width: 991px) {
+  header {
+    height: 100%;
+    position: relative; }
+    header ul.navbar-nav {
+      position: fixed;
+      left: 0;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.99);
+      z-index: 1; }
+    header a.navbar-brand#branding {
+      padding-left: 0 !important; }
+    header li.nav-item:last-child {
+      padding-right: 0.9rem !important; }
+    header .sticky {
+      padding-bottom: 0;
+      -webkit-transition: all 0.6s ease;
+      transition: all 0.6s ease; }
+    header ul.navbar-nav {
+      text-align: center; }
+    header li#dropdownMenu:hover div#dropdownContent {
+      display: none !important; }
+    header div#showcase div#showcaseText p {
+      font-size: 0.9rem;
+      padding: 1rem 3rem; }
+  section#section-1 {
+    padding: 10vmin 0 10vmin;
+    height: 100%; }
+    section#section-1 div#introductionImage img {
+      width: 60%; }
+    section#section-1 div#introduction {
+      padding-top: 5rem; }
+      section#section-1 div#introduction div#introductionText {
+        position: static; }
+  section#section-2 div#background-image {
+    height: 45vh;
+    background-position: -20vmin -40vmin; }
+    section#section-2 div#background-image h1 {
+      font-size: 5.6vmin !important; }
+  section#section-2 div#featuresText div#numbers {
+    margin-top: -5rem; }
+    section#section-2 div#featuresText div#numbers div.rectangle {
+      width: 9rem;
+      height: 9rem;
+      margin: 0.9rem; }
+      section#section-2 div#featuresText div#numbers div.rectangle h1 {
+        font-size: 2.5rem; }
+  section#section-3 {
+    height: 100%;
+    padding: 9vmin 0 9vmin !important; }
+    section#section-3 div#downloadApp h1 {
+      padding: 2vmin 2vmin 4vmin;
+      font-size: 4.6vmin; }
+    section#section-3 div#downloadApp p {
+      margin-bottom: 2vmin; }
+    section#section-3 div#platform {
+      padding-top: 2rem; }
+      section#section-3 div#platform div.col-md-6 div.platformType i {
+        font-size: 7vmin; }
+  footer .row {
+    text-align: center !important; }
+    footer .row form .row {
+      margin-left: auto !important;
+      margin-right: auto !important; }
+  footer .col-lg-5,
+  footer .col-lg-4 {
+    margin-bottom: 3rem; }
+  footer .col-lg-3 div#socialLinks {
+    margin-top: 2rem; }
+    footer .col-lg-3 div#socialLinks i {
+      font-size: 2rem; } }
+
+@media only screen and (max-width: 768px) {
+  section#section-1 {
+    height: 100%;
+    padding: 8vmin 2vmin; }
+    section#section-1 div#introductionImage img {
+      width: 70%; }
+    section#section-1 div#introduction div#introductionText {
+      padding: 4vmin;
+      margin: 2rem auto;
+      position: static; }
+      section#section-1 div#introduction div#introductionText h1 {
+        font-weight: bold;
+        padding: 0.4rem 0;
+        font-size: 2rem; }
+      section#section-1 div#introduction div#introductionText p {
+        font-size: 0.9rem;
+        color: rgba(0, 0, 0, 0.5); }
+  section#section-2 div#background-image {
+    height: 38vh;
+    background-position: -20vmin -30vmin; }
+  section#section-3 {
+    padding: 12vmin 0 9vmin !important; }
+    section#section-3 div#downloadApp h1 {
+      padding: 2vmin 2vmin 4vmin;
+      font-size: 4.6vmin; }
+    section#section-3 div#downloadApp p {
+      margin-bottom: 2vmin;
+      font-size: 3vmin; }
+    section#section-3 div#platform div.col-md-6 div.platformType i {
+      font-size: 7vmin; } }
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  header div#showcase {
+    padding: 4vmin 0; }
+    header div#showcase div#showcaseText {
+      padding: 6vmin 0; }
+      header div#showcase div#showcaseText h1 {
+        font-size: 2.6rem; }
+    header div#showcase div#showcaseImage img {
+      width: 23rem; } }
+
+@media only screen and (max-width: 575px) {
+  header {
+    height: 100%; }
+    header div#showcase {
+      padding: 10vmin 0 4vmin; }
+      header div#showcase div#showcaseText {
+        padding: 2vmin 0; }
+        header div#showcase div#showcaseText h1 {
+          font-size: 1.8rem;
+          padding: 0 2rem; }
+      header div#showcase div#showcaseImage img {
+        width: 16rem; }
+  section#section-1 {
+    height: 100%;
+    padding: 8vmin 2vmin; }
+    section#section-1 div#introductionImage img {
+      width: 18rem; }
+    section#section-1 div#introduction {
+      padding-top: 2rem; }
+      section#section-1 div#introduction div#introductionText {
+        padding: 4vmin 5vmin !important;
+        margin: 2rem 1.5rem;
+        position: static; }
+        section#section-1 div#introduction div#introductionText h1 {
+          font-weight: bold;
+          padding: 0.4rem 0;
+          font-size: 2rem; }
+        section#section-1 div#introduction div#introductionText p {
+          font-size: 0.9rem;
+          color: rgba(0, 0, 0, 0.5); }
+  section#section-2 div#background-image {
+    height: 32vh;
+    background-position: -20vmin -16vmin; }
+    section#section-2 div#background-image h1 {
+      font-size: 5.6vmin !important; }
+    section#section-2 div#background-image p {
+      font-size: 0.6rem !important;
+      padding: 0.4rem 1rem; }
+  section#section-2 div#featuresText div#numbers {
+    margin-top: -4rem; }
+    section#section-2 div#featuresText div#numbers div.rectangle {
+      width: 15rem;
+      height: 9rem;
+      margin: 0.9rem; }
+      section#section-2 div#featuresText div#numbers div.rectangle h1 {
+        margin-top: 0.3rem;
+        font-size: 2.8rem; }
+      section#section-2 div#featuresText div#numbers div.rectangle p {
+        font-size: 1.2rem; }
+  section#section-3 {
+    height: 100vh;
+    padding: 10vmin 0 0 !important; }
+    section#section-3 div#downloadApp h1 {
+      padding: 2vmin 2vmin 4vmin;
+      font-size: 5vmin; }
+    section#section-3 div#downloadApp p {
+      margin-bottom: 2vmin;
+      padding: 2rem;
+      font-size: 1rem; }
+    section#section-3 div#platform {
+      padding-top: 2rem; }
+      section#section-3 div#platform div.col-sm-6 div.platformType i {
+        font-size: 8vmin; }
+      section#section-3 div#platform div.col-sm-6 div.platformType h3 {
+        font-size: 1.8rem; }
+      section#section-3 div#platform div.col-sm-6 div.platformType p {
+        font-size: 1.1rem; }
+  section#section-4 div#customersHeader h1 {
+    font-size: 8vmin;
+    padding-top: 7.5rem; } }
+
+@media only screen and (max-width: 375px) {
+  header {
+    height: 100%; }
+    header div#showcase {
+      padding: 4vmin 0; }
+      header div#showcase div#showcaseText {
+        padding: 0; }
+        header div#showcase div#showcaseText h6 {
+          font-size: 0.8rem; }
+        header div#showcase div#showcaseText h1 {
+          font-size: 1.6rem;
+          padding: 0 1rem; }
+      header div#showcase div#showcaseImage img {
+        width: 15rem; }
+  section#section-1 {
+    padding: 15vmin 2vmin 8vmin; }
+    section#section-1 div#introductionImage img {
+      width: 17rem; }
+    section#section-1 div#introduction div#introductionText {
+      padding: 4vmin 5vmin !important;
+      margin: 4rem 0.3rem;
+      position: static; }
+      section#section-1 div#introduction div#introductionText h1 {
+        font-weight: bold;
+        padding: 0.4rem 0;
+        font-size: 2rem; }
+      section#section-1 div#introduction div#introductionText p {
+        font-size: 0.9rem;
+        color: rgba(0, 0, 0, 0.5); }
+  section#section-2 div#background-image {
+    height: 32vh;
+    background-position: -20vmin -19vmin; }
+    section#section-2 div#background-image h1 {
+      font-size: 7vmin !important; }
+    section#section-2 div#background-image p {
+      font-size: 0.6rem !important;
+      padding: 0.4rem 1rem; }
+  section#section-2 div#featuresText div#numbers {
+    margin-top: -4rem; }
+    section#section-2 div#featuresText div#numbers div.rectangle {
+      width: 15rem;
+      height: 9rem;
+      margin: 0.9rem; }
+      section#section-2 div#featuresText div#numbers div.rectangle h1 {
+        margin-top: 0.3rem;
+        font-size: 2.8rem; }
+      section#section-2 div#featuresText div#numbers div.rectangle p {
+        font-size: 1.2rem; }
+  section#section-2 div#purchase h1 {
+    padding: 1rem !important; }
+  section#section-2 div#purchase p {
+    padding: 1rem !important; }
+  section#section-3 {
+    height: 100%;
+    padding: 10vmin 0 2rem !important; }
+    section#section-3 div#downloadApp h1 {
+      padding: 2vmin 2vmin 4vmin;
+      font-size: 6vmin; }
+    section#section-3 div#platform {
+      padding-top: 2rem; }
+      section#section-3 div#platform div.col-sm-6 div.platformType i {
+        font-size: 10vmin; }
+      section#section-3 div#platform div.col-sm-6 div.platformType h3 {
+        font-size: 1.8rem; }
+      section#section-3 div#platform div.col-sm-6 div.platformType p {
+        font-size: 1.1rem; }
+  section#section-4 div#customersHeader h1 {
+    font-size: 8vmin;
+    padding-top: 7.5rem; }
+  section#section-4 div#customers {
+    padding: 10vmin 0.5vmin; }
+    section#section-4 div#customers .card {
+      width: 17rem;
+      margin: 1.5rem 0.4rem;
+      border-radius: 2rem; }
+      section#section-4 div#customers .card div.card-img-top img {
+        width: 20rem;
+        border-radius: 2rem; }
+      section#section-4 div#customers .card div.card-body p.card-text {
+        padding: 0.8rem; } }
